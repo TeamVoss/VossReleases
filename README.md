@@ -35,9 +35,7 @@ There is also a more extensive
 Installation
 ------------
 
-Download our
-[pre-built binaries](https://github.com/TeamVoss/VossII/releases/latest)
-and unpack them to your directory of choice, then put <installation-directory>/bin in your search path and you will be able to run the fl interpreter by simply invokng fl. Note that you need the <voss dir>/bin in your search path for the Verilog reader to work, and it must be earlier than any paths containing other versions of yosys!
+Clone this repository and unpack them to your directory of choice (by issuing the command: tar xfj voss.tar.bz2), then put <installation-directory>/bin in your search path and you will be able to run the fl interpreter by simply invokng fl. Note that you need the <voss dir>/bin in your search path for the Verilog reader to work, and it must be earlier than any paths containing other versions of yosys!
 
 
 Voss II depends on Tk for its graphical bits. If the fl interpreter dies with

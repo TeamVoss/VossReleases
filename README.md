@@ -2,7 +2,7 @@
 Rolling release repository for VossII
 
 To install a binary version of VossII simply issue the command: 
-tar xfj vossII<version>.tar.gz2
+tar xfj vossII\<version\>.tar.gz2
 
 
 Voss II
@@ -35,7 +35,7 @@ There is also a more extensive
 Installation
 ------------
 
-Clone this repository and unpack them to your directory of choice (by issuing the command: tar xfj vossII<version>.tar.bz2), then put <installation-directory>/bin in your search path and you will be able to run the fl interpreter by simply invokng fl. Note that you need the <voss dir>/bin in your search path for the Verilog reader to work, and it must be earlier than any paths containing other versions of yosys!
+Clone this repository and unpack them to your directory of choice (by issuing the command: tar xfj vossII\<version\>.tar.bz2), then put <installation-directory>/bin in your search path and you will be able to run the fl interpreter by simply invokng fl. Note that you need the <voss dir>/bin in your search path for the Verilog reader to work, and it must be earlier than any paths containing other versions of yosys!
 
 
 Voss II depends on Tk for its graphical bits. If the fl interpreter dies with
